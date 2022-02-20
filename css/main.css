@@ -763,17 +763,17 @@ button {
   color: #212121;
 }
 
-.form-field + .form-field {
+.form__field + .form__field {
   margin-top: 10px;
 }
 
-.modal-label {
+.modal__label {
   margin-bottom: 4px;
   display: block;
   width: 100%;
 }
 
-.modal-input-wrap {
+.form__wrap {
   position: relative;
 }
 
@@ -792,23 +792,34 @@ button {
   outline-color: #2196f3;
 }
 
-.input-icons {
+.form__icon {
   position: absolute;
   left: 12px;
   top: 50%;
   transform: translateY(-50%);
 }
 
-.modal-input:hover + .input-icons,
-.modal-input:focus + .input-icons {
+.form__input:hover + .form__icon,
+.form__input:focus + .form__icon {
   fill: #2196f3;
 }
 
-.form-field textarea {
+.form__comments {
   height: 120px;
+  width: 100%;
   margin-bottom: 20px;
   padding: 12px 16px;
   resize: none;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  padding: 12px;
+  padding-left: 42px;
+}
+
+.form__comments:hover, .form__comments:focus {
+  border-color: #2196f3;
+  outline-color: #2196f3;
 }
 
 .modal-policy {
