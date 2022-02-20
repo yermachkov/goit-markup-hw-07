@@ -492,24 +492,24 @@
 
         <div class="form__field">
           <label for="comments" class="modal__label">Комментарий</label>
-          <textarea name="comments" id="comments" class="form__comments" placeholder="Введите текст"></textarea>
+          <textarea name="comments" id="comments" class="form__comments form__input" placeholder="Введите текст"></textarea>
         </div>
 
-        <div>
-          <input type="checkbox" id="policy-check" class="modal-checkbox visually-hidden" name="modal-checkbox" required>
-          <label for="policy-check" class="modal-policy modal__label">
-            <span>
-              <svg width="16" height="15" class="modal-check-icon">
+        <div class="policy">
+          <input type="checkbox" id="policy-check" class="policy__checkbox visually-hidden" name="modal-checkbox" required>
+          <label for="policy-check" class="policy__label">
+            <span class="policy__wrap">
+              <svg width="16" height="15" class="policy__icon">
                 <use href="./images/icons.svg#icon-check"></use>
               </svg>
-            </span> Соглашаюсь с рассылкой и принимаю <a href="#" class="policy-link">Условия договора</a>
+            </span> Соглашаюсь с рассылкой и принимаю <a href="#" class="policy__link">Условия договора</a>
           </label>
         </div>
-        <div class="btn-subm-wrap">
-           <button type="submit" class="modal-btn-subm">Отправить</button>
+
+        <div class="btn__wrap">
+           <button type="submit" class="btn__subm">Отправить</button>
         </div>
       </form>
-
 
     </div>
   </div>
