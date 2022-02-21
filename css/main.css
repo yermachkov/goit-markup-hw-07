@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -822,7 +821,7 @@ button {
   justify-content: center;
 }
 
-.policy__wrap {
+.custom-checkbox {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -833,36 +832,21 @@ button {
   border-radius: 2px;
 }
 
-.policy__icon {
-  fill: transparent;
-}
-
-.policy__checkbox:hover + .policy__icon,
-.policy__checkbox:focus + .policy__icon {
+.policy__checkbox:hover + .custom-checkbox,
+.policy__checkbox:focus + .custom-checkbox {
   border-color: #2196f3;
 }
 
-.policy__checkbox:checked + .policy__icon {
+.modal-checkbox:checked + .custom-checkbox {
   background-color: #2196f3;
   border: none;
-  fill: #ffffff;
 }
 
-.modal-check-icon {
+.custom-checkbox__icon {
   fill: transparent;
 }
 
-.modal-checkbox:hover + .modal-policy > span,
-.modal-checkbox:focus + .modal-policy > span {
-  border-color: var(--primary-accent-color);
-}
-
-.modal-checkbox:checked + .modal-policy > span {
-  background-color: var(--primary-accent-color);
-  border: none;
-}
-
-.modal-checkbox:checked + .modal-policy svg {
+.modal-checkbox:checked + .custom-checkbox__icon {
   fill: #ffffff;
 }
 
@@ -871,10 +855,14 @@ button {
   padding-left: 4px;
 }
 
+.policy__link:visited {
+  color: #2196f3;
+}
+
 .btn__wrap {
   display: flex;
   justify-content: center;
-  align-itemc: center;
+  align-items: center;
 }
 
 .btn__subm {
@@ -893,7 +881,7 @@ button {
 }
 
 .btn__subm:hover, .btn__subm:focus {
-  background-сolor: #188ce8;
+  background-color: #188ce8;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 /*# sourceMappingURL=main.css.map */
