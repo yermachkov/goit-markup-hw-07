@@ -832,12 +832,12 @@ button {
   border-radius: 2px;
 }
 
-.policy__checkbox:hover + .custom-checkbox,
-.policy__checkbox:focus + .custom-checkbox {
+.policy__label:hover + .custom-checkbox,
+.policy__label:focus + .custom-checkbox {
   border-color: #2196f3;
 }
 
-.modal-checkbox:checked + .custom-checkbox {
+.modal-checkbox:checked .custom-checkbox {
   background-color: #2196f3;
   border: none;
 }
@@ -846,7 +846,7 @@ button {
   fill: transparent;
 }
 
-.modal-checkbox:checked + .custom-checkbox__icon {
+.modal-checkbox:checked .custom-checkbox__icon {
   fill: #ffffff;
 }
 

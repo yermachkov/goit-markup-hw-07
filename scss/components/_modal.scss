@@ -145,12 +145,12 @@
   margin-right: 8.38px;
   border-radius: 2px;
 
-  .policy__checkbox:hover + &,
-  .policy__checkbox:focus + & {
+  .policy__label:hover + &,
+  .policy__label:focus + & {
     border-color: $primary-accent-color;
   }
 
-  .modal-checkbox:checked + & {
+  .policy__label:checked + & {
     background-color: $primary-accent-color;
     border: none;
   }
@@ -159,7 +159,7 @@
 .custom-checkbox__icon {
   fill: transparent;
 
-  .modal-checkbox:checked + & {
+  .policy__label:checked + & {
     fill: #ffffff;
   }
 }
