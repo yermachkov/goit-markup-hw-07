@@ -184,7 +184,7 @@ button {
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 452px;
+  padding: 200px 0;
   background-color: #c4c4c4;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero-bg.jpeg);
   background-repeat: no-repeat;
@@ -194,8 +194,9 @@ button {
 }
 
 .hero__title {
-  object-position: 50% 50%;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 694px;
   color: #ffffff;
   font-weight: 900;
@@ -837,7 +838,7 @@ button {
   border-color: #2196f3;
 }
 
-.modal-checkbox:checked .custom-checkbox {
+.policy__label:checked + .custom-checkbox {
   background-color: #2196f3;
   border: none;
 }
@@ -846,7 +847,7 @@ button {
   fill: transparent;
 }
 
-.modal-checkbox:checked .custom-checkbox__icon {
+.policy__label:checked + .custom-checkbox__icon {
   fill: #ffffff;
 }
 

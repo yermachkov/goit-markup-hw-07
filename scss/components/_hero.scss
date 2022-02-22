@@ -3,7 +3,7 @@
   min-height: 600px;
   margin-left: auto;
   margin-right: auto;
-  padding: 200px 452px;
+  padding: 200px 0;
 
   background-color: #c4c4c4;
   background-image: linear-gradient(
@@ -20,8 +20,9 @@
 }
 
 .hero__title {
-  object-position: 50% 50%;
   margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
   width: 694px;
 
   color: $secondary-accent-color;
