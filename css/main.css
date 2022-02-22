@@ -194,8 +194,9 @@ button {
   fill: #ffffff;
 }
 
-.check__icon {
-  fill: transparent;
+.check__link {
+  color: #2196f3;
+  padding-left: 0.3em;
 }
 
 .header {
@@ -832,15 +833,6 @@ button {
   margin-bottom: 20px;
   padding: 12px 16px;
   resize: none;
-}
-
-.policy__link {
-  color: #2196f3;
-  padding-left: 0.3em;
-}
-
-.policy__link:visited {
-  color: #2196f3;
 }
 
 .btn__wrap {
