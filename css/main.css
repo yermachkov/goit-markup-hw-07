@@ -79,6 +79,30 @@ button {
   margin: -1px;
 }
 
+.logo {
+  font-family: Raleway;
+  color: #212121;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.header__logo {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-right: 93px;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.logo__partial {
+  color: #2196f3;
+}
+
 .header {
   display: flex;
   align-items: center;
@@ -93,21 +117,6 @@ button {
 .nav {
   display: flex;
   align-items: center;
-}
-
-.logo {
-  padding-top: 25px;
-  padding-bottom: 25px;
-  margin-right: 93px;
-  font-family: Raleway;
-  color: #212121;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
-.logo__partial {
-  color: #2196f3;
 }
 
 .nav-list {
@@ -543,20 +552,6 @@ button {
   padding-bottom: 60px;
   display: flex;
   align-items: baseline;
-}
-
-.footer__logo {
-  display: block;
-  margin-bottom: 20px;
-  font-family: Raleway;
-  color: #ffffff;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-}
-
-.logo__partial {
-  color: #2196f3;
 }
 
 .address-list {
