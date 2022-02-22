@@ -124,49 +124,9 @@
   resize: none;
 }
 
-.policy__label {
-  margin-bottom: 30px;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.custom-checkbox {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 16px;
-  height: 15px;
-  border: 2px solid #212121;
-  margin-right: 8.38px;
-  border-radius: 2px;
-
-  .policy__label:hover + &,
-  .policy__label:focus + & {
-    border-color: $primary-accent-color;
-  }
-
-  .policy__label:checked + & {
-    background-color: $primary-accent-color;
-    border: none;
-  }
-}
-
-.custom-checkbox__icon {
-  fill: transparent;
-
-  .policy__label:checked + & {
-    fill: #ffffff;
-  }
-}
-
 .policy__link {
   color: $primary-accent-color;
-  padding-left: 4px;
+  padding-left: 0.3em;
 }
 
 .policy__link:visited {
